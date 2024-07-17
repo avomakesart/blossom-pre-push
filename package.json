@@ -1,0 +1,20 @@
+{
+  "name": "blossom-pre-push-checklist",
+  "version": "1.0.0",
+  "description": "A CLI tool for pre-push checklist",
+  "main": "index.js",
+  "bin": {
+    "pre-push-checklist": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["git", "pre-push", "checklist", "cli"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0"
+  }
+}
